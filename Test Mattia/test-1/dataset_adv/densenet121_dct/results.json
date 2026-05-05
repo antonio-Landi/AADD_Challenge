@@ -1,0 +1,3686 @@
+{
+  "attack_model": "densenet121_dct",
+  "epsilon": 0.03137254901960784,
+  "n_steps": 40,
+  "lambda_ssim": 0.3,
+  "n_processed": 175,
+  "n_fooled_by_target": 1,
+  "total_score": 0.9909923184622269,
+  "images": [
+    {
+      "image": "000.png",
+      "ssim": 0.98611415311857,
+      "lpips": 0.03216928988695145,
+      "sim_weight": 0.9769724316158093,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0994764044880867,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.11671243607997894,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "001.png",
+      "ssim": 0.987715910022271,
+      "lpips": 0.013980132527649403,
+      "sim_weight": 0.9868678887473108,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09806317090988159,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1002303957939148,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "002.png",
+      "ssim": 0.9901076989574475,
+      "lpips": 0.012009954079985619,
+      "sim_weight": 0.989048872438731,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09917622059583664,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09896766394376755,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "003.png",
+      "ssim": 0.9912916007605697,
+      "lpips": 0.01169299241155386,
+      "sim_weight": 0.9897993041745079,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09943288564682007,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09982578456401825,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "004.png",
+      "ssim": 0.9895757960228729,
+      "lpips": 0.01237545907497406,
+      "sim_weight": 0.9886001684739494,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10019061714410782,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09895189851522446,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "005.png",
+      "ssim": 0.9904579348815642,
+      "lpips": 0.012153598479926586,
+      "sim_weight": 0.9891521682008189,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09901139885187149,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0993761494755745,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "006.png",
+      "ssim": 0.9930982629286241,
+      "lpips": 0.005231425166130066,
+      "sim_weight": 0.993933418881247,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09921368211507797,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09857594221830368,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "007.png",
+      "ssim": 0.9875499238313047,
+      "lpips": 0.02787460759282112,
+      "sim_weight": 0.9798376581192418,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10051977634429932,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10028719156980515,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "008.png",
+      "ssim": 0.9933952035791688,
+      "lpips": 0.007690771017223597,
+      "sim_weight": 0.9928522162809725,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09865206480026245,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10143935680389404,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "009.png",
+      "ssim": 0.9926804130867791,
+      "lpips": 0.0098459143191576,
+      "sim_weight": 0.9914172493838107,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10055617988109589,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09751114994287491,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "010.png",
+      "ssim": 0.9902552449226905,
+      "lpips": 0.009885224513709545,
+      "sim_weight": 0.9901850102044905,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09891500324010849,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1389995515346527,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "011.png",
+      "ssim": 0.9884886905187641,
+      "lpips": 0.02480315789580345,
+      "sim_weight": 0.9818427663114804,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09838209301233292,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1024383082985878,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "012.png",
+      "ssim": 0.9927540824844906,
+      "lpips": 0.012257663533091545,
+      "sim_weight": 0.9902482094756995,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09869523346424103,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1013045683503151,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "013.png",
+      "ssim": 0.9912161075144272,
+      "lpips": 0.016499195247888565,
+      "sim_weight": 0.9873584561332693,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10092880576848984,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10121055692434311,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "015.png",
+      "ssim": 0.98879175744135,
+      "lpips": 0.006807120516896248,
+      "sim_weight": 0.9909923184622269,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09926389157772064,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Real",
+          "prob_real": 0.6538221836090088,
+          "indicator": 1,
+          "contribution": 0.9909923184622269
+        }
+      },
+      "pair_contribution": 0.9909923184622269
+    },
+    {
+      "image": "017.png",
+      "ssim": 0.9901524881516989,
+      "lpips": 0.014739111997187138,
+      "sim_weight": 0.9877066880772558,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09988681972026825,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09788679331541061,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "018.png",
+      "ssim": 0.9922701192149139,
+      "lpips": 0.007939617149531841,
+      "sim_weight": 0.992165251032691,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09990430623292923,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10287977010011673,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "019.png",
+      "ssim": 0.9857891685952248,
+      "lpips": 0.012350944802165031,
+      "sim_weight": 0.9867191118965299,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09853915125131607,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10052113980054855,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "022.png",
+      "ssim": 0.9913766588853293,
+      "lpips": 0.020410029217600822,
+      "sim_weight": 0.9854833148338642,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10049854964017868,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10529452562332153,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "023.png",
+      "ssim": 0.9930613996509109,
+      "lpips": 0.007993282750248909,
+      "sim_weight": 0.992534058450331,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10095671564340591,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10220496356487274,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "024.png",
+      "ssim": 0.9875122229793444,
+      "lpips": 0.019932523369789124,
+      "sim_weight": 0.9837898498047777,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10051633417606354,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09922944754362106,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "025.png",
+      "ssim": 0.9918164337901523,
+      "lpips": 0.01698864810168743,
+      "sim_weight": 0.9874138928442324,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10060848295688629,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10832430422306061,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "026.png",
+      "ssim": 0.993042389597076,
+      "lpips": 0.008972407318651676,
+      "sim_weight": 0.9920349911392121,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09914634376764297,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09891248494386673,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "027.png",
+      "ssim": 0.99392857579259,
+      "lpips": 0.004539472050964832,
+      "sim_weight": 0.9946945518708126,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09997008740901947,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09832554310560226,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "028.png",
+      "ssim": 0.995917942549116,
+      "lpips": 0.0019428204977884889,
+      "sim_weight": 0.9969875610256638,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09879398345947266,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.109004445374012,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "029.png",
+      "ssim": 0.9923765344027178,
+      "lpips": 0.005888763815164566,
+      "sim_weight": 0.9932438852937766,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09914778918027878,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09802038967609406,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "030.png",
+      "ssim": 0.9913323441241518,
+      "lpips": 0.015460697002708912,
+      "sim_weight": 0.9879358235607214,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09985829144716263,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10404214262962341,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "031.png",
+      "ssim": 0.9906540021222069,
+      "lpips": 0.008815675042569637,
+      "sim_weight": 0.9909191635398187,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09961125999689102,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10363347828388214,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "032.png",
+      "ssim": 0.9897325821494238,
+      "lpips": 0.016984470188617706,
+      "sim_weight": 0.9863740559804031,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10009010881185532,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09724900126457214,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "033.png",
+      "ssim": 0.9901332164942471,
+      "lpips": 0.02654855139553547,
+      "sim_weight": 0.9817923325493558,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0986742153763771,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09772178530693054,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "035.png",
+      "ssim": 0.9869198541824736,
+      "lpips": 0.02715853974223137,
+      "sim_weight": 0.9798806572201211,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0999644324183464,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09916923940181732,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "036.png",
+      "ssim": 0.9885736401655296,
+      "lpips": 0.01668737269937992,
+      "sim_weight": 0.9859431337330749,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09876452386379242,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09704551100730896,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "037.png",
+      "ssim": 0.9884001918997232,
+      "lpips": 0.01383955031633377,
+      "sim_weight": 0.9872803207916947,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09893269091844559,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0988205298781395,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "038.png",
+      "ssim": 0.9914775924759566,
+      "lpips": 0.016674961894750595,
+      "sim_weight": 0.9874013152906029,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09939220547676086,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09937841445207596,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "039.png",
+      "ssim": 0.9944983986587261,
+      "lpips": 0.008590674959123135,
+      "sim_weight": 0.9929538618498015,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09922663122415543,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09713094681501389,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "040.png",
+      "ssim": 0.9879203019552887,
+      "lpips": 0.015094288624823093,
+      "sim_weight": 0.9864130066652328,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0983332023024559,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10121957957744598,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "041.png",
+      "ssim": 0.9895214960813615,
+      "lpips": 0.030747460201382637,
+      "sim_weight": 0.9793870179399895,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0997794046998024,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09731828421354294,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "042.png",
+      "ssim": 0.9857513021236359,
+      "lpips": 0.024126136675477028,
+      "sim_weight": 0.9808125827240795,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0997539758682251,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10015511512756348,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "043.png",
+      "ssim": 0.9941351740464291,
+      "lpips": 0.005976869724690914,
+      "sim_weight": 0.9940791521608692,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0982874408364296,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09766115248203278,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "044.png",
+      "ssim": 0.9905280779039455,
+      "lpips": 0.018661772832274437,
+      "sim_weight": 0.9859331525358355,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09910818189382553,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10092850029468536,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "045.png",
+      "ssim": 0.9887310028151752,
+      "lpips": 0.015545936301350594,
+      "sim_weight": 0.9865925332569123,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09815704822540283,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10023520886898041,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "046.png",
+      "ssim": 0.9892644894062586,
+      "lpips": 0.011986924335360527,
+      "sim_weight": 0.988638782535449,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09901516884565353,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09974828362464905,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "047.png",
+      "ssim": 0.9942596410434671,
+      "lpips": 0.008342266082763672,
+      "sim_weight": 0.9929586874803518,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09958232939243317,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10127633064985275,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "048.png",
+      "ssim": 0.9897121255892262,
+      "lpips": 0.019765706732869148,
+      "sim_weight": 0.9849732094281785,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09952200949192047,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09875013679265976,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "049.png",
+      "ssim": 0.9890386743355194,
+      "lpips": 0.013933961279690266,
+      "sim_weight": 0.9875523565279145,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09844415634870529,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10155490040779114,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "051.png",
+      "ssim": 0.9917752714510412,
+      "lpips": 0.00943041779100895,
+      "sim_weight": 0.9911724268300162,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09937220811843872,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10138571262359619,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "052.png",
+      "ssim": 0.987734832513888,
+      "lpips": 0.016329461708664894,
+      "sim_weight": 0.9857026854026116,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10017263144254684,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1007901206612587,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "053.png",
+      "ssim": 0.9906037329574557,
+      "lpips": 0.010381588712334633,
+      "sim_weight": 0.9901110721225606,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09889810532331467,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10201030224561691,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "054.png",
+      "ssim": 0.9916018653757249,
+      "lpips": 0.01059857290238142,
+      "sim_weight": 0.9905016462366718,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10052922368049622,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09850866347551346,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "055.png",
+      "ssim": 0.9914189294124306,
+      "lpips": 0.011647689156234264,
+      "sim_weight": 0.9898856201280981,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09917239099740982,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09888198226690292,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "057.png",
+      "ssim": 0.9932241867176984,
+      "lpips": 0.0066709672100842,
+      "sim_weight": 0.993276609753807,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09955188632011414,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09982512146234512,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "058.png",
+      "ssim": 0.990251300104687,
+      "lpips": 0.009524058550596237,
+      "sim_weight": 0.9903636207770454,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09942005574703217,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10086841136217117,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "059.png",
+      "ssim": 0.9917642447799812,
+      "lpips": 0.014540856704115868,
+      "sim_weight": 0.9886116940379326,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09985504299402237,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09917692840099335,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "061.png",
+      "ssim": 0.993488824460241,
+      "lpips": 0.009787271730601788,
+      "sim_weight": 0.9918507763648197,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09806805849075317,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09887012839317322,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "062.png",
+      "ssim": 0.9878028846113471,
+      "lpips": 0.030546750873327255,
+      "sim_weight": 0.9786280668690099,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09804820269346237,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10082826763391495,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "063.png",
+      "ssim": 0.9950323393844744,
+      "lpips": 0.005813895724713802,
+      "sim_weight": 0.9946092218298803,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09951230883598328,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.16073305904865265,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "064.png",
+      "ssim": 0.9904691726938677,
+      "lpips": 0.015615534037351608,
+      "sim_weight": 0.987426819328258,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1005287915468216,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10095308721065521,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "065.png",
+      "ssim": 0.9890791747320763,
+      "lpips": 0.02641165256500244,
+      "sim_weight": 0.9813337610835369,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09984758496284485,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09922366589307785,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "067.png",
+      "ssim": 0.9922651356336751,
+      "lpips": 0.007899565622210503,
+      "sim_weight": 0.9921827850057323,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1000574380159378,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10037689656019211,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "068.png",
+      "ssim": 0.9891193610039437,
+      "lpips": 0.01544470526278019,
+      "sim_weight": 0.9868373278705818,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09945616126060486,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10109542310237885,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "069.png",
+      "ssim": 0.9875780837657522,
+      "lpips": 0.011169742792844772,
+      "sim_weight": 0.9882041704864537,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09976013749837875,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09956187754869461,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "070.png",
+      "ssim": 0.9895756396872617,
+      "lpips": 0.02524304762482643,
+      "sim_weight": 0.9821662960312176,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09934453666210175,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09930413216352463,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "071.png",
+      "ssim": 0.9941591957209215,
+      "lpips": 0.00464158970862627,
+      "sim_weight": 0.9947588030061476,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09991423785686493,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10013853013515472,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "072.png",
+      "ssim": 0.9915456302814385,
+      "lpips": 0.007497936021536589,
+      "sim_weight": 0.992023847129951,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09919236600399017,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10323897004127502,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "073.png",
+      "ssim": 0.9929073606766973,
+      "lpips": 0.006442737765610218,
+      "sim_weight": 0.9932323114555435,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1005638986825943,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10378403216600418,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "074.png",
+      "ssim": 0.9895881580775815,
+      "lpips": 0.016454294323921204,
+      "sim_weight": 0.9865669318768302,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1023508757352829,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0998862236738205,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "075.png",
+      "ssim": 0.9898042785554241,
+      "lpips": 0.025000084191560745,
+      "sim_weight": 0.9824020971819316,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09925970435142517,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0926622748374939,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "076.png",
+      "ssim": 0.986648448829822,
+      "lpips": 0.05671054124832153,
+      "sim_weight": 0.9649689537907502,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09881419688463211,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08463691920042038,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "078.png",
+      "ssim": 0.9853868227093839,
+      "lpips": 0.0546165406703949,
+      "sim_weight": 0.9653851410194945,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10002845525741577,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0881168320775032,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "079.png",
+      "ssim": 0.9898726478472697,
+      "lpips": 0.023131463676691055,
+      "sim_weight": 0.9833705920852893,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09732641279697418,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09517133235931396,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "080.png",
+      "ssim": 0.9867452715568388,
+      "lpips": 0.0360240563750267,
+      "sim_weight": 0.975360607590906,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1013495996594429,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09402292221784592,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "082.png",
+      "ssim": 0.9862253025521895,
+      "lpips": 0.06762287020683289,
+      "sim_weight": 0.9593012161726784,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09786683320999146,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08996248245239258,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "083.png",
+      "ssim": 0.9884388684616828,
+      "lpips": 0.035407934337854385,
+      "sim_weight": 0.9765154670619143,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09717950969934464,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09310790151357651,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "085.png",
+      "ssim": 0.9863251524993606,
+      "lpips": 0.04588170349597931,
+      "sim_weight": 0.9702217245016906,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0971425473690033,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08829788863658905,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "087.png",
+      "ssim": 0.9860766831913432,
+      "lpips": 0.06798622757196426,
+      "sim_weight": 0.9590452278096895,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10416995733976364,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08657780289649963,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "088.png",
+      "ssim": 0.98479774312848,
+      "lpips": 0.06572164595127106,
+      "sim_weight": 0.9595380485886045,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09903199225664139,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08534593880176544,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "089.png",
+      "ssim": 0.9914424460875217,
+      "lpips": 0.016002897173166275,
+      "sim_weight": 0.9877197744571777,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1839347928762436,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09899777919054031,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "090.png",
+      "ssim": 0.984432216826101,
+      "lpips": 0.05556507408618927,
+      "sim_weight": 0.9644335713699559,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09920025616884232,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09055198729038239,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "091.png",
+      "ssim": 0.9862215453740943,
+      "lpips": 0.05996718257665634,
+      "sim_weight": 0.963127181398719,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09821624308824539,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08736738562583923,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "092.png",
+      "ssim": 0.987762939230187,
+      "lpips": 0.037061624228954315,
+      "sim_weight": 0.9753506575006163,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10111155360937119,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09305575489997864,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "094.png",
+      "ssim": 0.9839269953204385,
+      "lpips": 0.08784757554531097,
+      "sim_weight": 0.9480397098875637,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10246851295232773,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0819784626364708,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "095.png",
+      "ssim": 0.9853941727524006,
+      "lpips": 0.04725565016269684,
+      "sim_weight": 0.9690692612948519,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10160071402788162,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09002599865198135,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "097.png",
+      "ssim": 0.9865530866633317,
+      "lpips": 0.04760032892227173,
+      "sim_weight": 0.9694763788705301,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09947952628135681,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08595022559165955,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "098.png",
+      "ssim": 0.9857510686051428,
+      "lpips": 0.05778738111257553,
+      "sim_weight": 0.9639818437462837,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10048159211874008,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09046816825866699,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "099.png",
+      "ssim": 0.9876347746357182,
+      "lpips": 0.03552842140197754,
+      "sim_weight": 0.9760531766168703,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09901543706655502,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09614881873130798,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "100.png",
+      "ssim": 0.9840968666329246,
+      "lpips": 0.07014037668704987,
+      "sim_weight": 0.9569782449729374,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1011267825961113,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08482585102319717,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1000.png",
+      "ssim": 0.9904085156815817,
+      "lpips": 0.015754764899611473,
+      "sim_weight": 0.9873268753909852,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09805280715227127,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10335542261600494,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1002.png",
+      "ssim": 0.9878580282009848,
+      "lpips": 0.023567035794258118,
+      "sim_weight": 0.9821454962033633,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09932273626327515,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0998651534318924,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1003.png",
+      "ssim": 0.9807035944205502,
+      "lpips": 0.03800123929977417,
+      "sim_weight": 0.971351177560388,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09972211718559265,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09926480799913406,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1004.png",
+      "ssim": 0.9884420066907458,
+      "lpips": 0.015556761994957924,
+      "sim_weight": 0.9864426223478939,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09811218827962875,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09696005284786224,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1005.png",
+      "ssim": 0.993807564511235,
+      "lpips": 0.011409868486225605,
+      "sim_weight": 0.9911988480125047,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09877675026655197,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09650029987096786,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1006.png",
+      "ssim": 0.9890022666014756,
+      "lpips": 0.015868112444877625,
+      "sim_weight": 0.986567077078299,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09977921098470688,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09759224206209183,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1007.png",
+      "ssim": 0.9893297895621086,
+      "lpips": 0.01416991837322712,
+      "sim_weight": 0.9875799355944408,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09870380163192749,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10043805837631226,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1008.png",
+      "ssim": 0.9875777601548713,
+      "lpips": 0.027484852820634842,
+      "sim_weight": 0.9800464536671183,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09934736788272858,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10051918029785156,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1009.png",
+      "ssim": 0.9866454990203423,
+      "lpips": 0.03958205133676529,
+      "sim_weight": 0.9735317238417884,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09959723055362701,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09824492037296295,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "101.png",
+      "ssim": 0.9862727109139833,
+      "lpips": 0.05486582592129707,
+      "sim_weight": 0.9657034424963431,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.11084452271461487,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09471650421619415,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1010.png",
+      "ssim": 0.9899265696008551,
+      "lpips": 0.012346376664936543,
+      "sim_weight": 0.9887900964679592,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09941951930522919,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0983523577451706,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1011.png",
+      "ssim": 0.9900188998273292,
+      "lpips": 0.01945628598332405,
+      "sim_weight": 0.9852813069220026,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09990832954645157,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.100066177546978,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1012.png",
+      "ssim": 0.9876489031171566,
+      "lpips": 0.02204255387187004,
+      "sim_weight": 0.9828031746226433,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09924376755952835,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1008744090795517,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1013.png",
+      "ssim": 0.9881476556308729,
+      "lpips": 0.02061384730041027,
+      "sim_weight": 0.9837669041652313,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09881393611431122,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09785588830709457,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1014.png",
+      "ssim": 0.9819170260433073,
+      "lpips": 0.026755299419164658,
+      "sim_weight": 0.9775808633120713,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10037950426340103,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09953636676073074,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1015.png",
+      "ssim": 0.9893754500316901,
+      "lpips": 0.010233771987259388,
+      "sim_weight": 0.9895708390222153,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10087470710277557,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09962096065282822,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1016.png",
+      "ssim": 0.9922692697924522,
+      "lpips": 0.011156756430864334,
+      "sim_weight": 0.990556256680794,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10030335187911987,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10398314148187637,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1017.png",
+      "ssim": 0.9914590617294988,
+      "lpips": 0.014421509578824043,
+      "sim_weight": 0.9885187760753373,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09969089925289154,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10132136940956116,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1018.png",
+      "ssim": 0.9920400328100459,
+      "lpips": 0.007943258620798588,
+      "sim_weight": 0.9920483870946237,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09895060211420059,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10347368568181992,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1019.png",
+      "ssim": 0.9865411233480074,
+      "lpips": 0.026596711948513985,
+      "sim_weight": 0.9799722056997466,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09902594238519669,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10207304358482361,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "102.png",
+      "ssim": 0.9870590831181678,
+      "lpips": 0.03223349526524544,
+      "sim_weight": 0.9774127939264612,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09913285821676254,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09331008046865463,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1020.png",
+      "ssim": 0.9845355232090268,
+      "lpips": 0.034018754959106445,
+      "sim_weight": 0.9752583841249602,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09841369837522507,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09771812707185745,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1021.png",
+      "ssim": 0.9865352327102445,
+      "lpips": 0.033540278673172,
+      "sim_weight": 0.9764974770185362,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10106975585222244,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09941776841878891,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1022.png",
+      "ssim": 0.9809271721888351,
+      "lpips": 0.03669121116399765,
+      "sim_weight": 0.9721179805124187,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09938925504684448,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09756971895694733,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1023.png",
+      "ssim": 0.9901684259827815,
+      "lpips": 0.014989418908953667,
+      "sim_weight": 0.987589503536914,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09918297082185745,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1036999374628067,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1024.png",
+      "ssim": 0.9876268239961391,
+      "lpips": 0.01787349209189415,
+      "sim_weight": 0.9848766659521224,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09938302636146545,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1006443202495575,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1025.png",
+      "ssim": 0.9863502039288994,
+      "lpips": 0.02728383243083954,
+      "sim_weight": 0.9795331857490299,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10084067285060883,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09971573948860168,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1026.png",
+      "ssim": 0.992856662859242,
+      "lpips": 0.011221431195735931,
+      "sim_weight": 0.990817615831753,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09931425005197525,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09610584378242493,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1028.png",
+      "ssim": 0.9869583219873969,
+      "lpips": 0.030998488888144493,
+      "sim_weight": 0.9779799165496261,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10018691420555115,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10206864774227142,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1029.png",
+      "ssim": 0.987260359564368,
+      "lpips": 0.01582568883895874,
+      "sim_weight": 0.9857173353627047,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09981608390808105,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10005015134811401,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "103.png",
+      "ssim": 0.9846817816070016,
+      "lpips": 0.06808022409677505,
+      "sim_weight": 0.9583007787551132,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10054759681224823,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.08834127336740494,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1030.png",
+      "ssim": 0.9865169348777701,
+      "lpips": 0.01719609834253788,
+      "sim_weight": 0.9846604182676162,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09948110580444336,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09994451701641083,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1031.png",
+      "ssim": 0.9896541855365024,
+      "lpips": 0.02146093174815178,
+      "sim_weight": 0.9840966268941753,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09955233335494995,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09826669842004776,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1032.png",
+      "ssim": 0.9884047297536909,
+      "lpips": 0.023701965808868408,
+      "sim_weight": 0.9823513819724112,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1002444177865982,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10267600417137146,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1033.png",
+      "ssim": 0.9890409726780298,
+      "lpips": 0.01159457303583622,
+      "sim_weight": 0.9887231998210968,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10024992376565933,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09475099295377731,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1034.png",
+      "ssim": 0.988895194630549,
+      "lpips": 0.017624270170927048,
+      "sim_weight": 0.9856354622298109,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09956535696983337,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09919058531522751,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1035.png",
+      "ssim": 0.9839274973330787,
+      "lpips": 0.008058612234890461,
+      "sim_weight": 0.9879344425490941,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09977158159017563,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1398889422416687,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1037.png",
+      "ssim": 0.9898663377461011,
+      "lpips": 0.014794036746025085,
+      "sim_weight": 0.987536150500038,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10071492940187454,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09879385679960251,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1039.png",
+      "ssim": 0.9938442416372398,
+      "lpips": 0.0053640082478523254,
+      "sim_weight": 0.9942401166946937,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1009649783372879,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09789396077394485,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "104.png",
+      "ssim": 0.9862482455591056,
+      "lpips": 0.047614552080631256,
+      "sim_weight": 0.9693168467392372,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09881170839071274,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0898728147149086,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1040.png",
+      "ssim": 0.9906913413349575,
+      "lpips": 0.015810441225767136,
+      "sim_weight": 0.9874404500545952,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09894773364067078,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10030504316091537,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1041.png",
+      "ssim": 0.9860790450028043,
+      "lpips": 0.04047233611345291,
+      "sim_weight": 0.9728033544446757,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09876846522092819,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0995829850435257,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1042.png",
+      "ssim": 0.9866840099380738,
+      "lpips": 0.016149505972862244,
+      "sim_weight": 0.9852672519826058,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0985647588968277,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.103362075984478,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1043.png",
+      "ssim": 0.988231422236749,
+      "lpips": 0.021449796855449677,
+      "sim_weight": 0.9833908126906497,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09896329045295715,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09982762485742569,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1044.png",
+      "ssim": 0.9835094623813178,
+      "lpips": 0.0238039493560791,
+      "sim_weight": 0.9798527565126194,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10080612450838089,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09881294518709183,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1045.png",
+      "ssim": 0.9849488162776492,
+      "lpips": 0.018032321706414223,
+      "sim_weight": 0.9834582472856175,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1007983610033989,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09984056651592255,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1046.png",
+      "ssim": 0.990516162516478,
+      "lpips": 0.005552311427891254,
+      "sim_weight": 0.9924819255442934,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10002249479293823,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09551625698804855,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1047.png",
+      "ssim": 0.9864863110507106,
+      "lpips": 0.033752355724573135,
+      "sim_weight": 0.9763669776630688,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09834577143192291,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09987661987543106,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1048.png",
+      "ssim": 0.9833699673252849,
+      "lpips": 0.0302995927631855,
+      "sim_weight": 0.9765351872810497,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10102280229330063,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09903638064861298,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1049.png",
+      "ssim": 0.9826775848434464,
+      "lpips": 0.01883772946894169,
+      "sim_weight": 0.9819199276872523,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0991843119263649,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09888479113578796,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "105.png",
+      "ssim": 0.9843200889369884,
+      "lpips": 0.048997268080711365,
+      "sim_weight": 0.9676614104281385,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09943457692861557,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09128424525260925,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1050.png",
+      "ssim": 0.9878433581458067,
+      "lpips": 0.030346699059009552,
+      "sim_weight": 0.9787483295433985,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09954116493463516,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09827204793691635,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1051.png",
+      "ssim": 0.9876336934303902,
+      "lpips": 0.026423823088407516,
+      "sim_weight": 0.9806049351709913,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09832006692886353,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09928705543279648,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1053.png",
+      "ssim": 0.9854876048021873,
+      "lpips": 0.022981522604823112,
+      "sim_weight": 0.9812530410986822,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09938757866621017,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09794458001852036,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1054.png",
+      "ssim": 0.9902788816898983,
+      "lpips": 0.019610334187746048,
+      "sim_weight": 0.9853342737510762,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09940943121910095,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09981958568096161,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1055.png",
+      "ssim": 0.9854941895036213,
+      "lpips": 0.034184109419584274,
+      "sim_weight": 0.9756550400420185,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0998898595571518,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09596050530672073,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1056.png",
+      "ssim": 0.9917031173454366,
+      "lpips": 0.023235926404595375,
+      "sim_weight": 0.9842335954704207,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09926377981901169,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.13036394119262695,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1057.png",
+      "ssim": 0.9822449907005524,
+      "lpips": 0.03290168568491936,
+      "sim_weight": 0.9746716525078165,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0990060567855835,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09992440044879913,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1058.png",
+      "ssim": 0.988958052319156,
+      "lpips": 0.016609324142336845,
+      "sim_weight": 0.9861743640884095,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1004132404923439,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10095386207103729,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1059.png",
+      "ssim": 0.9869776703041202,
+      "lpips": 0.027319185435771942,
+      "sim_weight": 0.9798292424341741,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0998062714934349,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09814629703760147,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "106.png",
+      "ssim": 0.9903489632635702,
+      "lpips": 0.023964017629623413,
+      "sim_weight": 0.9831924728169734,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.100265271961689,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09550178050994873,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1060.png",
+      "ssim": 0.9865908125529647,
+      "lpips": 0.034843821078538895,
+      "sim_weight": 0.9758734957372128,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0996532142162323,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09852665662765503,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1061.png",
+      "ssim": 0.9879679984929203,
+      "lpips": 0.009810958057641983,
+      "sim_weight": 0.9890785202176391,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10024461150169373,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1183415874838829,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1062.png",
+      "ssim": 0.9884211762548182,
+      "lpips": 0.02328241989016533,
+      "sim_weight": 0.9825693781823264,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10055544972419739,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09589287638664246,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1063.png",
+      "ssim": 0.9874818741623758,
+      "lpips": 0.034908220171928406,
+      "sim_weight": 0.9762868269952236,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09923221170902252,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10094153136014938,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1064.png",
+      "ssim": 0.9913979191625516,
+      "lpips": 0.013319465331733227,
+      "sim_weight": 0.9890392269154091,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09983695298433304,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1005890965461731,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1066.png",
+      "ssim": 0.9890737835396988,
+      "lpips": 0.018443651497364044,
+      "sim_weight": 0.9853150660211674,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10024536401033401,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09844661504030228,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1067.png",
+      "ssim": 0.9884446860635995,
+      "lpips": 0.02022046595811844,
+      "sim_weight": 0.9841121100527406,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09950069338083267,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09906317293643951,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1068.png",
+      "ssim": 0.9895034437498532,
+      "lpips": 0.014567222446203232,
+      "sim_weight": 0.987468110651825,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10030080378055573,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09817764908075333,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1069.png",
+      "ssim": 0.989679848719386,
+      "lpips": 0.006276255939155817,
+      "sim_weight": 0.9917017963901151,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09999759495258331,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.26762649416923523,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "107.png",
+      "ssim": 0.9881366740840093,
+      "lpips": 0.024312298744916916,
+      "sim_weight": 0.9819121876695462,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09633037447929382,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0978456363081932,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1070.png",
+      "ssim": 0.989460183915817,
+      "lpips": 0.023025603964924812,
+      "sim_weight": 0.9832172899754461,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10243041068315506,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09911676496267319,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1071.png",
+      "ssim": 0.9893047860382009,
+      "lpips": 0.021883128210902214,
+      "sim_weight": 0.9837108289136494,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10032615810632706,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09804560989141464,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1072.png",
+      "ssim": 0.9855190390164821,
+      "lpips": 0.05293356999754906,
+      "sim_weight": 0.9662927345094665,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09907342493534088,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09854887425899506,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1073.png",
+      "ssim": 0.9835589864169897,
+      "lpips": 0.0474168136715889,
+      "sim_weight": 0.9680710863727005,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09937694668769836,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09646343439817429,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1075.png",
+      "ssim": 0.9913658031619105,
+      "lpips": 0.008731991052627563,
+      "sim_weight": 0.9913169060546414,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09965638816356659,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.1002236157655716,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1076.png",
+      "ssim": 0.9826385668837467,
+      "lpips": 0.06934559345245361,
+      "sim_weight": 0.9566464867156466,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09997232258319855,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0977153554558754,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1078.png",
+      "ssim": 0.9842897554958866,
+      "lpips": 0.05057944357395172,
+      "sim_weight": 0.9668551559609675,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.1002887412905693,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09328587353229523,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1079.png",
+      "ssim": 0.9896646734926035,
+      "lpips": 0.026038382202386856,
+      "sim_weight": 0.9818131456451082,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09954545646905899,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10020557790994644,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "108.png",
+      "ssim": 0.987891406899226,
+      "lpips": 0.027558693662285805,
+      "sim_weight": 0.9801663566184702,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09859195351600647,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09909260272979736,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1080.png",
+      "ssim": 0.9869876713446755,
+      "lpips": 0.026356691494584084,
+      "sim_weight": 0.9803154899250457,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.101626917719841,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09708453714847565,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1081.png",
+      "ssim": 0.9882940726204389,
+      "lpips": 0.023547876626253128,
+      "sim_weight": 0.9823730979970928,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09906172007322311,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09807926416397095,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1082.png",
+      "ssim": 0.9845194385004689,
+      "lpips": 0.06280597299337387,
+      "sim_weight": 0.9608567327535475,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.0986664816737175,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.10010654479265213,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1083.png",
+      "ssim": 0.9882589613031,
+      "lpips": 0.028038078919053078,
+      "sim_weight": 0.9801104411920234,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10062132030725479,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09918691217899323,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1084.png",
+      "ssim": 0.9864130425182438,
+      "lpips": 0.03914692625403404,
+      "sim_weight": 0.9736330581321049,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09943612664937973,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09855564683675766,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1085.png",
+      "ssim": 0.987228713801256,
+      "lpips": 0.034450627863407135,
+      "sim_weight": 0.9763890429689244,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10007113218307495,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09990326315164566,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1086.png",
+      "ssim": 0.9890564698539156,
+      "lpips": 0.026829762384295464,
+      "sim_weight": 0.98111335373481,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.10129780322313309,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.0998256653547287,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1087.png",
+      "ssim": 0.9871028264184808,
+      "lpips": 0.023321188986301422,
+      "sim_weight": 0.9818908187160897,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09967491030693054,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09822660684585571,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    },
+    {
+      "image": "1089.png",
+      "ssim": 0.9856984263479044,
+      "lpips": 0.03149690106511116,
+      "sim_weight": 0.9771007626413966,
+      "per_classifier": {
+        "vit_b_16": {
+          "prediction": "Fake",
+          "prob_real": 0.09965935349464417,
+          "indicator": 0,
+          "contribution": 0.0
+        },
+        "densenet121_dct": {
+          "prediction": "Fake",
+          "prob_real": 0.09678211063146591,
+          "indicator": 0,
+          "contribution": 0.0
+        }
+      },
+      "pair_contribution": 0.0
+    }
+  ]
+}
