@@ -1,0 +1,28 @@
+# MIG-COW adversarial attack — Python dependencies
+# Pinned to match the AADD 2026 evaluation environment where specified.
+#
+# ── Environment setup ─────────────────────────────────────────────────────────
+# conda create -n mig-cow python=3.11.11 -y
+# conda activate mig-cow
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+# pip install -r safe-ai/requirements.txt
+
+# ── Core ─────────────────────────────────────────────────────────────────────
+numpy==1.26.4
+Pillow==11.0.0
+scipy==1.15.3
+scikit-image==0.26.0
+tqdm==4.67.1
+PyYAML==6.0.2
+
+# ── PyTorch  (installed separately — see header above for CUDA wheel) ─────────
+# torch (latest, cu128 — richiesto da RTX 5070 / Blackwell sm_120)
+# torchvision
+
+# ── Evaluation metrics ────────────────────────────────────────────────────────
+lpips==0.1.4
+
+# ── HuggingFace (ViT-P + masdar/Fake_Face_Classification) ────────────────────
+transformers>=4.40.0
+huggingface_hub>=0.22.0
+safetensors>=0.4.0
